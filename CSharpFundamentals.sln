@@ -13,7 +13,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03_Operators", "03_Operator
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04_IfElseStatements", "04_IfElseStatements\04_IfElseStatements.csproj", "{6F5C18C6-FED5-405E-87AC-17D604F79FDD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05_Ternaries", "05_Ternaries\05_Ternaries.csproj", "{701E9F3F-98CE-4603-951D-304C4BE0523C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04_Ternaries", "05_Ternaries\04_Ternaries.csproj", "{701E9F3F-98CE-4603-951D-304C4BE0523C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04_SwitchCases", "04_SwitchCases\04_SwitchCases.csproj", "{227FA729-1ECD-4A36-A861-BE34DEC7C72B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{701E9F3F-98CE-4603-951D-304C4BE0523C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{701E9F3F-98CE-4603-951D-304C4BE0523C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{701E9F3F-98CE-4603-951D-304C4BE0523C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{227FA729-1ECD-4A36-A861-BE34DEC7C72B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{227FA729-1ECD-4A36-A861-BE34DEC7C72B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{227FA729-1ECD-4A36-A861-BE34DEC7C72B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{227FA729-1ECD-4A36-A861-BE34DEC7C72B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
