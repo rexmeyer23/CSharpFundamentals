@@ -39,6 +39,12 @@ namespace _06_Methods
             //int sumTwo = numThree + numFour;
             //Console.WriteLine(sumTwo);
 
+            //int methodSum = AddTwoNumbers(5000, 10000);
+            //Console.WriteLine(methodSum);
+
+            //int methodSum2 = AddTwoNumbers(1000, 3000);
+            //Console.WriteLine(methodSum2);
+
         }
 
         //1) Access Modifier - public or private
