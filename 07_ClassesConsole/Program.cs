@@ -8,7 +8,8 @@ using System.Threading.Tasks;
 namespace _07_ClassesConsole
 {
     class Program
-    {
+    {//properties and methods are class members
+        //constructer is not a class member
         static void Main(string[] args)
         {
             Vehicle firstVehicle = new Vehicle();
