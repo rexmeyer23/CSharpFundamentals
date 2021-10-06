@@ -87,6 +87,6 @@ namespace _06_Methods
             return years;
         }
 
-        
+        //Single Reponsibility principle, everything only has one job, suits both classes and methods
     }
 }

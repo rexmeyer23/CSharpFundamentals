@@ -20,8 +20,8 @@ namespace _07_Classes
         //private access modifier can only be accessed in respective class or method
         //accessModifier   type  property name{get; set;}
         public string Make { get; set; }
-        public int Year { get; set; }
         public string Model { get; set; }
+        public int Year { get; set; }
         public string Color { get; set; }
         public double Mileage { get; set; }
         public VehicleType Type { get; set; }
