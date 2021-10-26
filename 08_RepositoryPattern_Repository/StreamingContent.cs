@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace _08_RepositoryPattern_Repository
+    //repository is made to hold crud methods
 {
     public enum MaturityRating
     {

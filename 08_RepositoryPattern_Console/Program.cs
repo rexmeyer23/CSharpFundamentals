@@ -26,7 +26,9 @@ namespace _08_RepositoryPattern_Console
             // Class Library - users interact with collection - business logic
             // Repo.cs
             // StreamingContent.cs
-
+            ProgramUI ui = new ProgramUI();
+            ui.Run();
+            Console.ReadKey();
         }
     }
 }

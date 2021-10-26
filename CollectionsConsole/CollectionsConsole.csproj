@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{D8A9F99C-59AB-4FF8-96CD-91B518AD2C96}</ProjectGuid>
+    <ProjectGuid>{7D7302A4-9577-4D49-A39B-D3B38B8F08B4}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>_08_RepositoryPattern_Console</RootNamespace>
-    <AssemblyName>08_RepositoryPattern_Console</AssemblyName>
+    <RootNamespace>CollectionsConsole</RootNamespace>
+    <AssemblyName>CollectionsConsole</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -44,17 +44,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Program.cs" />
-    <Compile Include="ProgramUI.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\08_RepositoryPattern_Repository\08_RepositoryPattern_Repository.csproj">
-      <Project>{9FCB56A0-DCE2-444B-B2ED-4C7D3DB437A7}</Project>
-      <Name>08_RepositoryPattern_Repository</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

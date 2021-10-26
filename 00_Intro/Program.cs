@@ -15,7 +15,7 @@ namespace _00_Intro
                 //a way of saying to code objects and use them such as storing in a database
                 //also makes coding easier to read, duplicate code
                 //Universal term for object inside code is POCO
-            //POCO - plain old clr object
+            //POCO - plain old c# object
             //CLR - common language runtime
                 //C# uses clr to compile it and make it machine readible
                 //methods are behvaviors of object, properties are noun of  an object

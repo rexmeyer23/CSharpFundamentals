@@ -16,6 +16,7 @@ namespace _08_RepositoryPattern_Repository
         //allowing transfer of info from my collection to my user interface, most of the time collections will be databases
         //CRUD methods
         //single responisbility principle means a method can only do thing inside of a method
+        //CRUD belongs in repo
         //Create
         //take in a streaming content object and add it to my list
         //refactor - where you change code to either be better or to adjust for breaking changes

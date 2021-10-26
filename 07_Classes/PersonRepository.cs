@@ -7,6 +7,8 @@ using System.Threading.Tasks;
 namespace _07_Classes
 { //research collections: dictionaires, queues, arrays, hash sets
     //common methods associated with each
+
+    //fields are class members that only use the _camelCase, it is the exception, rest is Pascal
     public class PersonRepository
     { //inside of class global
 

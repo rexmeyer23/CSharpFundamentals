@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{D8A9F99C-59AB-4FF8-96CD-91B518AD2C96}</ProjectGuid>
+    <ProjectGuid>{5805FB43-F118-4DFE-A309-E29BC34BCAAD}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>_08_RepositoryPattern_Console</RootNamespace>
-    <AssemblyName>08_RepositoryPattern_Console</AssemblyName>
+    <RootNamespace>_10_InterfacesConsole_Part2</RootNamespace>
+    <AssemblyName>10_InterfacesConsole_Part2</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,18 +43,22 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Interfaces\IGear.cs" />
+    <Compile Include="Interfaces\IRental.cs" />
     <Compile Include="Program.cs" />
-    <Compile Include="ProgramUI.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RentalVehicles\RentalBoat.cs" />
+    <Compile Include="RentalVehicles\RentalCar.cs" />
+    <Compile Include="RentalVehicles\RentalSailBoat.cs" />
+    <Compile Include="RentalVehicles\RentalTruck.cs" />
+    <Compile Include="RentalVehicles\RentalVehicle.cs" />
+    <Compile Include="Vehicles\Car.cs" />
+    <Compile Include="Vehicles\LandVehicle.cs" />
+    <Compile Include="Vehicles\SailBoat.cs" />
+    <Compile Include="Vehicles\Truck.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\08_RepositoryPattern_Repository\08_RepositoryPattern_Repository.csproj">
-      <Project>{9FCB56A0-DCE2-444B-B2ED-4C7D3DB437A7}</Project>
-      <Name>08_RepositoryPattern_Repository</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
