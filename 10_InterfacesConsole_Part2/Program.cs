@@ -69,8 +69,11 @@ namespace _10_InterfacesConsole_Part2
                 else if (rental is SailBoat sb)
                  {
                     Console.WriteLine("The {0} rented a {1} which has a RentalID of {2}", sb.CurrentRenter, sb.SailBoatStyle, sb.RentalID);
+                    sb.NumberOfLifeJackets = 2;
+                    Console.WriteLine("The " + sb.SailBoatStyle + " has " + sb.NumberOfLifeJackets + " Life Jackets.");
                 }
             }
+            Console.ReadKey();
         }
     }
 }
